@@ -86,7 +86,7 @@ except ApiException as e:
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://virtserver.swaggerhub.com/YufengXin/SDX-Controller/1.0.0*
+All URIs are relative to *https://virtserver.swaggerhub.com/SDX-Controller/1.0.0*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

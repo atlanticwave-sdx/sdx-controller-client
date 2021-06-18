@@ -1,6 +1,6 @@
 # swagger_client.UserApi
 
-All URIs are relative to *https://virtserver.swaggerhub.com/YufengXin/SDX-Controller/1.0.0*
+All URIs are relative to *https://virtserver.swaggerhub.com/SDX-Controller/1.0.0*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
