@@ -1,0 +1,3 @@
+export SDXCONTROLLER_HOST='aw-sdx-controller.renci.org'
+export SDXCONTROLLER_PORT='8080'
+export SDXCONTROLLER_VERSION='1.0.0'
