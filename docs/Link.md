@@ -7,11 +7,13 @@ Name | Type | Description | Notes
 **name** | **str** |  | 
 **short_name** | **str** |  | [optional] 
 **ports** | [**list[Port]**](Port.md) |  | 
-**total_bandwidth** | **float** |  | [optional] 
-**available_bandwidth** | **float** |  | [optional] 
+**bandwidth** | **float** |  | [optional] 
+**residual_bandwidth** | **float** |  | [optional] 
 **latency** | **float** |  | [optional] 
 **packet_loss** | **float** |  | [optional] 
 **availability** | **float** |  | [optional] 
+**state** | **str** |  | [optional] 
+**status** | **str** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
