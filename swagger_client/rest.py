@@ -21,7 +21,6 @@ import ssl
 import certifi
 
 # python 2 and python 3 compatibility library
-import six
 from six.moves.urllib.parse import urlencode
 
 try:
@@ -156,7 +155,7 @@ class RESTClientObject(object):
         timeout = None
         if _request_timeout:
             if isinstance(
-                _request_timeout, (int,) if six.PY3 else (int, long)
+                _request_timeout, (int,)
             ):  # noqa: E501,F821
                 timeout = urllib3.Timeout(total=_request_timeout)
             elif (
