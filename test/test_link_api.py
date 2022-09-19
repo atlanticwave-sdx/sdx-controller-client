@@ -3,7 +3,9 @@
 """
     SDX-Controller
 
-    You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).   # noqa: E501
+    You can find out more about Swagger at
+    [http://swagger.io](http://swagger.io) or on [irc.freenode.net,
+    #swagger](http://swagger.io/irc/).
 
     OpenAPI spec version: 1.0.0
     Contact: yxin@renci.org
@@ -14,9 +16,10 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
+# import swagger_client
 from swagger_client.api.link_api import LinkApi  # noqa: E501
-from swagger_client.rest import ApiException
+
+# from swagger_client.rest import ApiException
 
 
 class TestLinkApi(unittest.TestCase):

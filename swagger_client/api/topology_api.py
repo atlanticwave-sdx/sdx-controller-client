@@ -3,7 +3,9 @@
 """
     SDX-Controller
 
-    You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).   # noqa: E501
+    You can find out more about Swagger at
+    [http://swagger.io](http://swagger.io) or on [irc.freenode.net,
+    #swagger](http://swagger.io/irc/).
 
     OpenAPI spec version: 1.0.0
     Contact: yxin@renci.org
@@ -188,13 +190,15 @@ class TopologyApi(object):
         # verify the required parameter 'topology_id' is set
         if "topology_id" not in params or params["topology_id"] is None:
             raise ValueError(
-                "Missing the required parameter `topology_id` when calling `get_topologyby_version`"
-            )  # noqa: E501
+                "Missing the required parameter `topology_id` "
+                "when calling `get_topologyby_version`"
+            )
         # verify the required parameter 'version' is set
         if "version" not in params or params["version"] is None:
             raise ValueError(
-                "Missing the required parameter `version` when calling `get_topologyby_version`"
-            )  # noqa: E501
+                "Missing the required parameter `version` "
+                "when calling `get_topologyby_version`"
+            )
 
         collection_formats = {}
 
@@ -302,8 +306,9 @@ class TopologyApi(object):
         # verify the required parameter 'topology_id' is set
         if "topology_id" not in params or params["topology_id"] is None:
             raise ValueError(
-                "Missing the required parameter `topology_id` when calling `topology_version`"
-            )  # noqa: E501
+                "Missing the required parameter `topology_id` "
+                "when calling `topology_version`"
+            )
 
         collection_formats = {}
 

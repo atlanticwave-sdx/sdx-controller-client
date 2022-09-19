@@ -3,7 +3,9 @@
 """
     SDX-Controller
 
-    You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).   # noqa: E501
+    You can find out more about Swagger at
+    [http://swagger.io](http://swagger.io) or on [irc.freenode.net,
+    #swagger](http://swagger.io/irc/).
 
     OpenAPI spec version: 1.0.0
     Contact: yxin@renci.org
@@ -94,8 +96,9 @@ class ConnectionApi(object):
         # verify the required parameter 'connection_id' is set
         if "connection_id" not in params or params["connection_id"] is None:
             raise ValueError(
-                "Missing the required parameter `connection_id` when calling `delete_connection`"
-            )  # noqa: E501
+                "Missing the required parameter `connection_id` "
+                "when calling `delete_connection`"
+            )
 
         collection_formats = {}
 
@@ -194,8 +197,9 @@ class ConnectionApi(object):
         # verify the required parameter 'connection_id' is set
         if "connection_id" not in params or params["connection_id"] is None:
             raise ValueError(
-                "Missing the required parameter `connection_id` when calling `getconnection_by_id`"
-            )  # noqa: E501
+                "Missing the required parameter `connection_id` "
+                "when calling `getconnection_by_id`"
+            )
 
         collection_formats = {}
 
@@ -295,8 +299,9 @@ class ConnectionApi(object):
         # verify the required parameter 'body' is set
         if "body" not in params or params["body"] is None:
             raise ValueError(
-                "Missing the required parameter `body` when calling `place_connection`"
-            )  # noqa: E501
+                "Missing the required parameter `body` when "
+                "calling `place_connection`"
+            )
 
         collection_formats = {}
 
