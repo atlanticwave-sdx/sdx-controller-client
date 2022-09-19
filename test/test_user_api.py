@@ -18,6 +18,7 @@ import unittest
 
 # import swagger_client
 from swagger_client.api.user_api import UserApi  # noqa: E501
+
 # from swagger_client.rest import ApiException
 
 
