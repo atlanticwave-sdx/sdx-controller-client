@@ -19,7 +19,6 @@ import re
 import ssl
 
 import certifi
-
 # python 2 and python 3 compatibility library
 import six
 from six.moves.urllib.parse import urlencode
