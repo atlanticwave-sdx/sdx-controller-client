@@ -22,8 +22,9 @@ from swagger_client.models.connection_qos_unit import ConnectionQosUnit
 from swagger_client.models.connection_scheduling import ConnectionScheduling
 from swagger_client.models.connection_v2 import ConnectionV2
 from swagger_client.models.connection_v2_endpoints import ConnectionV2Endpoints
-from swagger_client.models.connection_v2_notifications import \
-    ConnectionV2Notifications
+from swagger_client.models.connection_v2_notifications import (
+    ConnectionV2Notifications,
+)
 from swagger_client.models.link import Link
 from swagger_client.models.location import Location
 from swagger_client.models.node import Node

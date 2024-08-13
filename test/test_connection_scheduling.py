@@ -15,8 +15,9 @@ from __future__ import absolute_import
 import unittest
 
 import swagger_client
-from swagger_client.models.connection_scheduling import \
-    ConnectionScheduling  # noqa: E501
+from swagger_client.models.connection_scheduling import (
+    ConnectionScheduling,
+)  # noqa: E501
 from swagger_client.rest import ApiException
 
 

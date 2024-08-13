@@ -19,6 +19,7 @@ import re
 import ssl
 
 import certifi
+
 # python 2 and python 3 compatibility library
 import six
 from six.moves.urllib.parse import urlencode
@@ -71,9 +72,9 @@ class RESTClientObject(object):
 
         addition_pool_args = {}
         if configuration.assert_hostname is not None:
-            addition_pool_args["assert_hostname"] = (
-                configuration.assert_hostname
-            )  # noqa: E501
+            addition_pool_args[
+                "assert_hostname"
+            ] = configuration.assert_hostname  # noqa: E501
 
         if maxsize is None:
             if configuration.connection_pool_maxsize is not None:

@@ -15,8 +15,9 @@ from __future__ import absolute_import
 import unittest
 
 import swagger_client
-from swagger_client.models.connection_v2_notifications import \
-    ConnectionV2Notifications  # noqa: E501
+from swagger_client.models.connection_v2_notifications import (
+    ConnectionV2Notifications,
+)  # noqa: E501
 from swagger_client.rest import ApiException
 
 

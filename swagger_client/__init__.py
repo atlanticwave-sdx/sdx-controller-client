@@ -20,9 +20,11 @@ from swagger_client.api.link_api import LinkApi
 from swagger_client.api.node_api import NodeApi
 from swagger_client.api.topology_api import TopologyApi
 from swagger_client.api.user_api import UserApi
+
 # import ApiClient
 from swagger_client.api_client import ApiClient
 from swagger_client.configuration import Configuration
+
 # import models into sdk package
 from swagger_client.models.api_response import ApiResponse
 from swagger_client.models.connection import Connection
@@ -32,8 +34,9 @@ from swagger_client.models.connection_qos_unit import ConnectionQosUnit
 from swagger_client.models.connection_scheduling import ConnectionScheduling
 from swagger_client.models.connection_v2 import ConnectionV2
 from swagger_client.models.connection_v2_endpoints import ConnectionV2Endpoints
-from swagger_client.models.connection_v2_notifications import \
-    ConnectionV2Notifications
+from swagger_client.models.connection_v2_notifications import (
+    ConnectionV2Notifications,
+)
 from swagger_client.models.link import Link
 from swagger_client.models.location import Location
 from swagger_client.models.node import Node
