@@ -15,12 +15,12 @@ from __future__ import absolute_import
 import unittest
 
 import swagger_client
-from swagger_client.models.location import Location  # noqa: E501
+from swagger_client.models.connection_body import ConnectionBody  # noqa: E501
 from swagger_client.rest import ApiException
 
 
-class TestLocation(unittest.TestCase):
-    """Location unit test stubs"""
+class TestConnectionBody(unittest.TestCase):
+    """ConnectionBody unit test stubs"""
 
     def setUp(self):
         pass
@@ -28,10 +28,10 @@ class TestLocation(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testLocation(self):
-        """Test Location"""
+    def testConnectionBody(self):
+        """Test ConnectionBody"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.location.Location()  # noqa: E501
+        # model = swagger_client.models.connection_body.ConnectionBody()  # noqa: E501
         pass
 
 

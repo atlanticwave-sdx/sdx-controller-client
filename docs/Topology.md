@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 **id** | **str** |  | 
 **name** | **str** |  | 
 **version** | **int** |  | 
-**time_stamp** | **datetime** |  | 
+**timestamp** | **datetime** |  | 
 **nodes** | [**list[Node]**](Node.md) |  | 
 **links** | [**list[Link]**](Link.md) |  | 
 
